@@ -1,0 +1,55 @@
+.headline {
+  width: 1140px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  margin-top: 84px;
+}
+.headline-content {
+  position: absolute;
+  z-index: 1;
+}
+.headline-banner {
+  position: relative;
+  margin-left: auto;
+  top: 0;
+  right: -105px;
+  width: 796px;
+  height: 448px;
+  margin-bottom: 77px;
+}
+.headline__title {
+  width: 754px;
+  height: 165px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 78px;
+  letter-spacing: -0.5px;
+  color: #2b292d;
+z-index: 1;
+margin: 0;
+}
+.headline__description {
+  margin-top: 34px;
+  margin-bottom: 58px;
+  width: 456px;
+  height: 102px;
+  font-size: 24px;
+  line-height: 34px;
+z-index: 1;
+}
+.headline__learn-more-btn {
+  margin-left: 10px;
+    width: 158px;
+  height: 48px;
+  background-color: #fff ;
+  border-radius: 2px;
+  color: #3040c4;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.headline__actions {
+  display: flex;
+}
+

@@ -1,0 +1,69 @@
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+}
+.action__button {
+  width: 160px;
+  height: 48px;
+  background-color: #3040c4;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.nav {
+  margin-left: auto;
+  margin-right: 75px;
+  margin-top: 8px;
+}
+.nav__arrow {
+  background-image: url(images/Arrow.png);
+  width: 8px;
+  height: 5px;
+  display: inline-block;
+
+  margin-left: 11px;
+}
+.nav__item {
+  color: #2b292d;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 50px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__item_selected {
+  font-weight: 700;
+}
+.logo__image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.logo {
+  display: flex;
+}
+.logo_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo__name {
+  margin-top: 7px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2b292d;
+}
+.logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2b292d;
+  opacity: 0.6;
+}
