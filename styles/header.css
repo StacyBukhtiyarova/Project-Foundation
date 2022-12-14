@@ -1,9 +1,12 @@
 .header {
-  width: 1140px;
-  height: 62px;
-  margin: auto;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
   display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
+
 .action__button {
   width: 160px;
   height: 48px;
@@ -14,10 +17,61 @@
   font-weight: 700;
   border: none;
 }
-.nav {
+.header__button {
+  display: none;
+}
+.header__menu-button {
+  width: 58px;
+  border: none;
+  border-left: 1px solid #00000026;
+  height: 100%;
   margin-left: auto;
-  margin-right: 75px;
-  margin-top: 8px;
+  background: transparent;
+}
+.header__menu-icon {
+  width: 18px;
+  height: 13px;
+  background-image: url(/images/header-icon.png);
+  display: inline-block;
+}
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .nav {
+    display: block;
+    margin-left: auto;
+    margin-right: 75px;
+    margin-top: 8px;
+  }
+  .header {
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    background-color: #f3c6bd;
+  }
+  .header__button {
+    display: block;
+  }
+  .logo__description {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #2b292d;
+    opacity: 0.6;
+    display: block;
+  }
+  .logo__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    padding-left: 0;
+  }
+  .header__menu-button {
+    display: none;
+  }
 }
 .nav__arrow {
   background-image: url(images/Arrow.png);
@@ -40,10 +94,10 @@
 .nav__item_selected {
   font-weight: 700;
 }
+
 .logo__image {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
+  width: 48px;
+  margin-right: 13px;
 }
 .logo {
   display: flex;
@@ -60,10 +114,7 @@
   font-weight: 700;
   color: #2b292d;
 }
+
 .logo__description {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 700;
-  color: #2b292d;
-  opacity: 0.6;
+  display: none;
 }
