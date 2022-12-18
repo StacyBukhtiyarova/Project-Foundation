@@ -3,67 +3,71 @@
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
+  & -nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  &__description {
+    display: none;
+    width: 360px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(43, 41, 45, 0.6);
+    margin-top: 26px;
+    margin-bottom: 25px;
+  }
+  &-links {
+    margin-left: 15px;
+  }
+  &-line {
+    border-top: 1px solid #2b292d;
+    opacity: 0.1;
+    width: 100%;
+    margin-top: 40px;
+  }
 }
 .about-company {
   margin-top: 43px;
 }
-.footer-nav {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.footer__description {
-  display: none;
-  width: 360px;
-  font-size: 18px;
-  line-height: 26px;
-  color: rgba(43, 41, 45, 0.6);
-  margin-top: 26px;
-  margin-bottom: 25px;
-}
+
 .downloads {
   display: flex;
   justify-content: center;
+  &__item {
+    margin-right: 10px;
+  }
 }
-.downloads__item {
-  margin-right: 10px;
-}
+
 .additional-nav {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
 }
 
-.nav-links__title {
-  font-weight: 700;
-  color: rgba(43, 41, 45, 1);
-  font-size: 22px;
-  line-height: 28px;
-  margin: 0;
-  margin-right: 82px;
-}
 .nav-links {
   width: 265px;
   margin-top: 30px;
-}
-.nav-links__list {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
-  list-style: none;
-  margin-top: 18px;
-}
-.footer-links {
-  margin-left: 15px;
-}
-.footer-line {
-  border-top: 1px solid #2b292d;
-  opacity: 0.1;
-  width: 100%;
-  margin-top: 40px;
+  &__title {
+    font-weight: 700;
+    color: rgba(43, 41, 45, 1);
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+    margin-right: 82px;
+  }
+  .&__list {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+    list-style: none;
+    margin-top: 18px;
+ 
+  }
+
 }
 
 .terms {
@@ -81,7 +85,6 @@
   margin-right: 20px;
   padding-bottom: 23px;
 }
-
 
 .logo-vertical {
   display: flex;
