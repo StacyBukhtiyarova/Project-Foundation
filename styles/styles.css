@@ -15,7 +15,7 @@ HTML {
 
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
@@ -720,6 +720,116 @@ HTML {
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
   max-width: 100%;
+}
+
+.order {
+  background-color: #f4f5f7;
+}
+@media screen and (min-width: 400px) {
+  .order {
+    padding-top: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.order__illustration {
+  margin: 50px 60px 0 60px;
+  max-width: 200px;
+  height: 220px;
+}
+@media screen and (min-width: 400px) {
+  .order__illustration {
+    margin: 0;
+    max-width: 269.41px;
+    margin-right: 123.59px;
+  }
+}
+.order__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #2b292d;
+}
+@media screen and (min-width: 400px) {
+  .order__title {
+    margin-top: 33px;
+  }
+}
+.order__text {
+  margin-top: 18px;
+  font-size: 22px;
+  line-height: 32px;
+  width: 290px;
+  color: #2b292d;
+  letter-spacing: 1px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 400px) {
+  .order__text {
+    margin-top: 12px;
+    width: 555px;
+  }
+}
+.order__email {
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  height: 48px;
+  width: 290px;
+  margin: 40px 15px 0px 15px;
+}
+.order__email::placeholder {
+  color: rgb(43, 41, 45);
+}
+@media screen and (min-width: 400px) {
+  .order__email {
+    margin-top: 26px;
+    width: 385px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+}
+.order__button {
+  margin: 12px 15px 0px 15px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (min-width: 400px) {
+  .order__button {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 399px) {
+  .order__button {
+    flex-shrink: 0;
+  }
+}
+.order__terms {
+  padding: 10px 15px 50px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+@media screen and (min-width: 400px) {
+  .order__terms {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 105px;
+  }
+}
+.order__link {
+  color: #3142c6;
 }
 
 /*# sourceMappingURL=styles.css.map */

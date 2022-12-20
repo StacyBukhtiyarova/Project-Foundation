@@ -12,7 +12,7 @@ HTML {
 }
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
+   max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
