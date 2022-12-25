@@ -1,0 +1,140 @@
+.inbox {
+  background-color: #fcf0e3;
+  padding: 50px 15px 48px 15px;
+  @include for-large-up {
+    display: flex;
+    padding: 0;
+    padding: 0px 0px 101px 193px;
+  }
+  &__figure {
+    margin: 0;
+  }
+  &-content {
+    @include for-large-up {
+      max-width: 519px;
+      padding-top: 115px;
+    }
+  }
+  &__img {
+    margin-bottom: 32px;
+    max-width: 290px;
+    @include for-large-up {
+      min-width: 425px;
+      height: 510px;
+      margin-top: 142px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #f1592b;
+    margin: 0;
+    margin-bottom: 17px;
+    @include for-large-up {
+      margin: 0;
+      margin-left: 192px;
+      margin-bottom: 24px;
+    }
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+    color: #2b292d;
+    margin: 0;
+    margin-bottom: 18px;
+    @include for-large-up {
+      margin: 0;
+      margin-left: 190px;
+      margin-bottom: 30px;
+    }
+  }
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    color: #2b292d;
+    letter-spacing: 1.5px;
+    @include for-large-up {
+      word-spacing: 7px;
+      margin: 0;
+      margin-left: 192px;
+      width: 461px;
+      letter-spacing: 0px;
+      margin-bottom: 44px;
+    }
+  }
+  &-comment {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    padding: 30px 20px 0px 20px;
+    @include for-large-up {
+      margin-left: 164px;
+      min-width: 519px;
+    }
+  }
+  &-comment__text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2b292d;
+    word-spacing: 3px;
+  }
+  &-comment__text-span {
+    font-weight: 700;
+  }
+  &-comment__block {
+    display: flex;
+  }
+  &-comment__img-block {
+    padding-top: 28px;
+    margin-right: 11px;
+    padding-bottom: 52px;
+  }
+  &-comment__img {
+    max-width: 40px;
+    height: 40px;
+  }
+  &-comment-content {
+    padding-top: 26px;
+  }
+
+  &-comment__username {
+    margin: 0;
+    font-weight: 700;
+    line-height: 22px;
+    color: #2b292d;
+  }
+  &-comment__user-info {
+    margin: 0;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  &__border {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #0185d0;
+    width: 100%;
+    height: 4px;
+    @include for-large-up {
+      min-width: 519px;
+      margin-left: 164px;
+    }
+  }
+}
+figcaption {
+  display: none;
+  @include for-large-up {
+    display: block;
+    padding-left: 71px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
