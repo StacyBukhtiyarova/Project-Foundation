@@ -2,6 +2,7 @@
   background-color: #fcf0e3;
   padding: 50px 15px 48px 15px;
   @include for-large-up {
+    margin-top: 103px;
     display: flex;
     padding: 0;
     padding: 0px 0px 101px 193px;
@@ -57,6 +58,7 @@
     line-height: 34px;
     color: #2b292d;
     letter-spacing: 1.5px;
+
     @include for-large-up {
       word-spacing: 7px;
       margin: 0;
@@ -127,14 +129,14 @@
       margin-left: 164px;
     }
   }
-}
-figcaption {
-  display: none;
-  @include for-large-up {
-    display: block;
-    padding-left: 71px;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
+  &__figcaption {
+    display: none;
+    @include for-large-up {
+      display: block;
+      padding-left: 71px;
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(43, 41, 45, 0.6);
+    }
   }
 }

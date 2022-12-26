@@ -28,7 +28,10 @@
             <a href="#" class="nav__item nav__item_selected">Home</a>
             <a href="#" class="nav__item">Stories</a>
             <a href="#" class="nav__item"
-              >Library <i class="nav__arrow"></i>
+              >Library
+              <i class="nav__arrow">
+                <img src="./images/Arrow.png" alt="arrow" />
+              </i>
             </a>
           </nav>
           <button class="action__button header__button">
@@ -118,6 +121,45 @@
           </div>
         </div>
       </section>
+       <section class="features">
+        <img
+          class="features__img"
+          src="./images/features/ouch.png"
+          alt="Half hidden head" />
+        <div class="features__content">
+          <div>
+            <h4 class="features__subtitle">Features</h4>
+            <h2 class="features__title">Easily find leads and customers</h2>
+
+            <p class="features__description">
+              Send one-off and automated email, push, and in-app messages to
+              people. Create better stories.
+            </p>
+            <div class="features__advantage-header">
+              <img src="./images/features/compas.png" alt="compas" />
+              <h5 class="features__advantage-title">Acquire new customers</h5>
+            </div>
+            <p class="features__advantage-description">
+              Everything you need to start building – including open-source
+              code, documentation.
+            </p>
+            <div class="features__advantage-item">
+              <img src="./images/features/building.png" alt="Building" />
+              <span class="features__advantage-item-text">Engage users</span>
+            </div>
+            <div class="features__advantage-item">
+              <img src="./images/features/bucket.png" alt="Bucket" />
+              <span class="features__advantage-item-text"
+                >Develop across platforms</span
+              >
+            </div>
+          </div>
+        </div>
+        <img
+          class="features__banner"
+          src="./images/features/screen.png"
+          alt="screen" />
+      </section>
       <section class="tips">
         <div class="tip">
           <span class="tip__subtitle">Acquire Customers</span>
@@ -171,7 +213,9 @@
             class="inbox__img"
             src="./images/inbox/diagram.png"
             alt="A round diagram" />
-        <figcaption>  Connect with customers and grow faster</figcaption>
+          <figcaption class="inbox__figcaption">
+            Connect with customers and grow faster
+          </figcaption>
         </figure>
         <div class="inbox-content">
           <h2 class="inbox__title">Team Inbox</h2>
@@ -205,45 +249,105 @@
           <div class="inbox__border"></div>
         </div>
       </section>
-      <section class="features">
-        <img
-          class="features__img"
-          src="./images/features/ouch.png"
-          alt="Half hidden head" />
-        <div class="features__content">
-          <div>
-            <h4 class="features__subtitle">Features</h4>
-            <h2 class="features__title">Easily find leads and customers</h2>
+      <section class="communication">
+        <div class="communication__block">
+          <div class="communication__content">
+            <h2 class="communication__title">Communicate Better</h2>
+            <h3 class="communication__subtitle">Built for busy small teams</h3>
+            <p class="communication__description">
+              Three products that can be used independently or combined together
+              for your company’s needs.
+            </p>
+            <button class="action__button communication__button" type="button">
+              Get started
+            </button>
+          </div>
+          <figure class="communication__figure">
+            <img
+              class="communication__figure-pic"
+              src="./images/communication-pic.png"
+              alt="a smartphone" />
+            <figcaption class="communication__figure-text">
+              A better way to acquire new users
+            </figcaption>
+          </figure>
+        </div>
+        <div class="communication__border"></div>
+        <div class="advantages__content">
+          <div class="advantages">
+            <p class="advantages__description">
+              <span class="advantages__title">Subscriptions.</span>
+              Foundation works with the tools and services you already use every
+              day.
+            </p>
+            <a class="advantages__link" href="#"
+              >Learn more about subscriptions</a
+            >
+          </div>
 
-            <p class="features__description">
-              Send one-off and automated email, push, and in-app messages to
-              people. Create better stories.
+          <div class="advantages">
+            <p class="advantages__description">
+              <span class="advantages__title">Flexible Hours.</span>
+              Flexible Hours. Get started with our simple snippet of JavaScript
+              or easy to install SDKs for iOS and Android.
             </p>
-            <div class="features__advantage-header">
-              <img src="./images/features/compas.png" alt="compas" />
-              <h5 class="features__advantage-title">Acquire new customers</h5>
-            </div>
-            <p class="features__advantage-description">
-              Everything you need to start building – including open-source
-              code, documentation.
+            <a class="advantages__link" href="#"> Get more info about hours</a>
+          </div>
+          <div class="advantages">
+            <p class="advantages__description">
+              <span class="advantages__title">Fast Communication.</span>
+              We offer measures like 2FA and SSO to ensure the safety of your
+              data.
             </p>
-            <div class="features__advantage-item">
-              <img src="./images/features/building.png" alt="Building" />
-              <span class="features__advantage-item-text">Engage users</span>
-            </div>
-            <div class="features__advantage-item">
-              <img src="./images/features/bucket.png" alt="Bucket" />
-              <span class="features__advantage-item-text"
-                >Develop across platforms</span
-              >
-            </div>
+            <a class="advantages__link" href="#">Communication guidelines</a>
           </div>
         </div>
-        <img
-          class="features__banner"
-          src="./images/features/screen.png"
-          alt="screen" />
       </section>
+      <section class="audience">
+        <h2 class="audience__title">Engage Visitors</h2>
+        <h3 class="audience__subtitle">Understand your audience</h3>
+        <p class="audience__description">
+          Early stage company? Eligible applicants get all of our products for
+          just $49 a month.
+        </p>
+        <div class="audience-buttons">
+          <button type="button" class="audience__action-button">
+            Get Started
+          </button>
+          <button type="button" class="learn-more-btn">Learn More</button>
+        </div>
+        <div class="img-block">
+          <div class="img-block__item">
+            <img
+              class="audience__img-one"
+              src="./images/audience/face.png"
+              alt="A face" />
+            <p class="img-block__text">Developers</p>
+          </div>
+          <div class="img-block__item">
+            <img
+              class="audience__img-two"
+              src="./images/audience/tv.png"
+              alt="A TV" />
+            <p class="img-block__text">Entertainment</p>
+          </div>
+          <div class="img-block__item">
+            <img
+              class="audience__img-three"
+              src="./images/audience/human.png"
+              alt="A human" />
+            <p class="img-block__text">Athletes</p>
+          </div>
+          <div class="img-block__item">
+            <img
+              class="audience__img-four"
+              src="./images/audience/lightbulb.png"
+              alt="A lightbulb" />
+            <p class="img-block__text">Creators</p>
+          </div>
+        </div>
+      </section>
+     
       <section class="order">
         <img
           class="order__illustration"

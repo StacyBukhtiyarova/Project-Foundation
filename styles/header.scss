@@ -5,11 +5,13 @@
   display: flex;
   align-items: center;
   padding-left: 15px;
+  padding-top: 0px;
   @include for-large-up {
     width: 1140px;
     height: 62px;
     margin: auto;
     margin-bottom: 76px;
+    padding-top: 39px;
     display: flex;
     background-color: #f3c6bd;
   }
@@ -38,6 +40,9 @@
   }
   .logo__description {
     display: none;
+    @include for-large-up {
+      display: block;
+    }
   }
 }
 
@@ -50,7 +55,6 @@
   font-size: 18px;
   font-weight: 700;
   border: none;
-  
 }
 
 .nav {
@@ -67,6 +71,7 @@
     height: 5px;
     display: inline-block;
     margin-left: 11px;
+    color: #2B292D;
   }
   &__item {
     color: #2b292d;

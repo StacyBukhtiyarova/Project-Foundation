@@ -84,7 +84,7 @@
     margin-top: 58px;
     display: flex;
   }
-  
+
   .headline-banner {
     position: relative;
     margin-left: auto;
@@ -95,8 +95,11 @@
     margin-bottom: 77px;
   }
 }
-@media screen and (max-width: 400px) {
-  .headline__action-btn {
-    width: 100%;
+
+.headline__action-btn {
+  width: 100%;
+  @include for-large-up {
+    width: 160px;
+    margin-right: 10px;
   }
 }
