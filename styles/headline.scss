@@ -7,6 +7,8 @@
     display: flex;
   }
   &__title {
+    height: 205px;
+    padding-left: 2px;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -24,7 +26,8 @@
     }
   }
   &-content {
-    margin: 35px 15px 24px 15px;
+    letter-spacing: -0.5px;
+    margin: 38px 15px 24px 15px;
     z-index: 1;
     @include for-large-up {
       position: absolute;
@@ -38,8 +41,10 @@
   }
 
   &__description {
+    margin-bottom: 30px;
+    padding-left: 2px;
+    letter-spacing: 0;
     width: 290px;
-    margin: 24 0 30px 0;
     font-size: 24px;
     line-height: 34px;
     z-index: 1;
@@ -97,6 +102,8 @@
 }
 
 .headline__action-btn {
+  padding-left: 10px;
+  height: 48px;
   width: 100%;
   @include for-large-up {
     width: 160px;

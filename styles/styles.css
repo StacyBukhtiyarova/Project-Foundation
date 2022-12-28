@@ -4,7 +4,7 @@
 
 HTML {
   font-size: 16px;
-  font-family: "Work-Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #2b292d;
 }
 
@@ -459,6 +459,8 @@ HTML {
   }
 }
 .header__menu-button {
+  padding-left: 8px;
+  padding-top: 9px;
   width: 58px;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
@@ -514,7 +516,7 @@ HTML {
   height: 5px;
   display: inline-block;
   margin-left: 11px;
-  color: #2B292D;
+  color: #2b292d;
 }
 .nav__item {
   color: #2b292d;
@@ -532,10 +534,18 @@ HTML {
 
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo__image {
-  width: 48px;
-  margin-right: 13px;
+  width: 26.4px;
+}
+.logo__image-block {
+  height: 49px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 10.64px 0 13.2px;
+  margin-right: 12px;
 }
 .logo_text {
   display: flex;
@@ -543,11 +553,10 @@ HTML {
   justify-content: center;
 }
 .logo__name {
-  margin-top: 7px;
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
-  color: #2b292d;
+  margin-top: 5.7px;
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
@@ -580,6 +589,8 @@ HTML {
   }
 }
 .headline__title {
+  height: 205px;
+  padding-left: 2px;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -599,7 +610,8 @@ HTML {
   }
 }
 .headline-content {
-  margin: 35px 15px 24px 15px;
+  letter-spacing: -0.5px;
+  margin: 38px 15px 24px 15px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
@@ -614,8 +626,10 @@ HTML {
   margin-bottom: 36px;
 }
 .headline__description {
+  margin-bottom: 30px;
+  padding-left: 2px;
+  letter-spacing: 0;
   width: 290px;
-  margin: 24 0 30px 0;
   font-size: 24px;
   line-height: 34px;
   z-index: 1;
@@ -673,6 +687,8 @@ HTML {
   }
 }
 .headline__action-btn {
+  padding-left: 10px;
+  height: 48px;
   width: 100%;
 }
 @media screen and (min-width: 1400px) {

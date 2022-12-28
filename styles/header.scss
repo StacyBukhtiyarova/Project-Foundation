@@ -22,6 +22,8 @@
     }
   }
   &__menu-button {
+    padding-left: 8px;
+    padding-top: 9px;
     width: 58px;
     border: none;
     border-left: 1px solid #00000026;
@@ -71,7 +73,7 @@
     height: 5px;
     display: inline-block;
     margin-left: 11px;
-    color: #2B292D;
+    color: #2b292d;
   }
   &__item {
     color: #2b292d;
@@ -90,9 +92,18 @@
 
 .logo {
   display: flex;
+  align-items: center;
   &__image {
-    width: 48px;
-    margin-right: 13px;
+    width: 26.4px;
+  }
+  &__image-block {
+    height: 49px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px 10.64px 0 13.2px;
+    margin-right: 12px;
   }
   &_text {
     display: flex;
@@ -100,11 +111,11 @@
     justify-content: center;
   }
   &__name {
-    margin-top: 7px;
+  
     font-size: 20px;
     line-height: 25px;
     font-weight: 700;
-    color: #2b292d;
+    margin-top: 5.7px;
   }
   &__description {
     @include for-large-up {
