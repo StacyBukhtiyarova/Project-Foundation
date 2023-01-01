@@ -7,12 +7,10 @@
     display: flex;
   }
   &__title {
-    height: 205px;
-
+    letter-spacing: -0.3125px;
     font-weight: 700;
     font-size: 50px;
-    line-height: 52px;
-    letter-spacing: 0.9px;
+    line-height: 50px;
     margin: 0;
     @include for-large-up {
       width: 754px;
@@ -42,7 +40,6 @@
 
   &__description {
     margin-bottom: 33px;
-    letter-spacing: 0.55px;
     width: 290px;
     font-size: 24px;
     line-height: 35.99px;
