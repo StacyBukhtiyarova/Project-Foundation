@@ -42,7 +42,7 @@ HTML {
 .about {
   background-color: #f4f5f7;
   width: 100%;
-  padding: 46px 15px;
+  padding: 44px 15px;
 }
 @media screen and (min-width: 1400px) {
   .about {
@@ -75,8 +75,10 @@ HTML {
   font-size: 22px;
   line-height: 32px;
   margin: 0;
+  padding-top: 10px;
 }
 .article__text {
+  padding-top: 8px;
   font-size: 22px;
   line-height: 32px;
   margin: 0;
@@ -459,13 +461,11 @@ HTML {
   }
 }
 .header__menu-button {
-  padding-left: 8px;
-  padding-top: 9px;
+  margin-left: auto;
   width: 58px;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
   height: 100%;
-  margin-left: auto;
   background: transparent;
 }
 @media screen and (min-width: 1400px) {
@@ -474,10 +474,12 @@ HTML {
   }
 }
 .header__menu-icon {
+  margin-left: 13px;
+  margin-top: 5px;
+  display: inline-block;
   width: 18px;
   height: 13px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-  display: inline-block;
 }
 .header .logo__description {
   display: none;
@@ -533,19 +535,14 @@ HTML {
 }
 
 .logo {
+  margin-right: 75px;
   display: flex;
   align-items: center;
 }
 .logo__image {
-  width: 26.4px;
-}
-.logo__image-block {
-  height: 49px;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 10px 10.64px 0 13.2px;
-  margin-right: 12px;
+  height: 48px;
+  width: 48px;
+  margin-right: 10px;
 }
 .logo_text {
   display: flex;
@@ -556,7 +553,6 @@ HTML {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
-  margin-top: 5.7px;
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
@@ -590,11 +586,10 @@ HTML {
 }
 .headline__title {
   height: 205px;
-  padding-left: 2px;
   font-weight: 700;
   font-size: 50px;
-  line-height: 50px;
-  letter-spacing: -0.3125px;
+  line-height: 52px;
+  letter-spacing: 0.9px;
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
@@ -610,8 +605,7 @@ HTML {
   }
 }
 .headline-content {
-  letter-spacing: -0.5px;
-  margin: 38px 15px 24px 15px;
+  margin: 41px 15px 24px 9px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
@@ -622,17 +616,18 @@ HTML {
   }
 }
 .headline-banner {
+  margin-top: 10px;
   width: 100%;
   margin-bottom: 36px;
 }
 .headline__description {
-  margin-bottom: 30px;
-  padding-left: 2px;
-  letter-spacing: 0;
+  margin-bottom: 33px;
+  letter-spacing: 0.55px;
   width: 290px;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 35.99px;
   z-index: 1;
+  margin-top: 35.55px;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
@@ -652,7 +647,7 @@ HTML {
   font-size: 18px;
   font-weight: 700;
   border: none;
-  margin-top: 15px;
+  margin-top: 19px;
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-btn {
@@ -679,7 +674,7 @@ HTML {
   .headline-banner {
     position: relative;
     margin-left: auto;
-    top: 0;
+    top: 0px;
     right: -105px;
     width: 796px;
     height: 448px;
@@ -687,9 +682,10 @@ HTML {
   }
 }
 .headline__action-btn {
-  padding-left: 10px;
+  padding-left: 12px;
   height: 48px;
   width: 100%;
+  letter-spacing: 0.6px;
 }
 @media screen and (min-width: 1400px) {
   .headline__action-btn {
