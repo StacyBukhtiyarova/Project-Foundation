@@ -1207,6 +1207,7 @@ HTML {
 @media screen and (min-width: 1400px) {
   .audience__title {
     padding-top: 108px;
+    padding-bottom: 0px;
   }
 }
 .audience__subtitle {
