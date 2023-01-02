@@ -1175,10 +1175,11 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    padding: 108px 0 110px 0;
+    padding: 0;
   }
 }
 .audience__title {
+  padding: 108px 0 24px 0;
   margin: 0;
   font-weight: 700;
   font-size: 22px;
@@ -1214,7 +1215,6 @@ HTML {
   width: 290px;
   text-align: center;
   color: #2b292d;
-  letter-spacing: 2px;
 }
 @media screen and (min-width: 1400px) {
   .audience__description {
@@ -1286,6 +1286,7 @@ HTML {
 }
 
 .img-block {
+  padding-bottom: 110px;
   margin: 40px auto 0 auto;
   width: 290px;
   text-align: center;
