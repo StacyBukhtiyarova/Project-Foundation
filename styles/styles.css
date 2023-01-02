@@ -623,9 +623,9 @@ HTML {
   margin-bottom: 33px;
   width: 290px;
   font-size: 24px;
-  line-height: 35.99px;
+  line-height: 34px;
   z-index: 1;
-  margin-top: 35.55px;
+  margin-top: 24px;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
@@ -669,9 +669,9 @@ HTML {
     display: flex;
   }
   .headline-banner {
+    margin-top: 0px;
     position: relative;
     margin-left: auto;
-    top: 0px;
     right: -105px;
     width: 796px;
     height: 448px;
