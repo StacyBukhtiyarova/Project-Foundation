@@ -1204,6 +1204,11 @@ HTML {
   text-align: center;
   color: #2b292d;
 }
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    padding-top: 108px;
+  }
+}
 .audience__subtitle {
   margin: 0;
   width: 290px;

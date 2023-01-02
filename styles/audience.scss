@@ -12,6 +12,9 @@
     line-height: 34px;
     text-align: center;
     color: #2b292d;
+    @include for-large-up {
+      padding-top: 108px;
+    }
   }
   &__subtitle {
     margin: 0;
