@@ -745,12 +745,10 @@ HTML {
 }
 
 .order {
-  display: none;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
-    display: block;
     padding-top: 73px;
     display: flex;
     justify-content: center;
@@ -765,7 +763,8 @@ HTML {
 @media screen and (min-width: 1400px) {
   .order__illustration {
     margin: 0;
-    max-width: 269.41px;
+    min-width: 269.41px;
+    min-height: 296px;
     margin-right: 123.59px;
   }
 }
