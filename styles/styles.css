@@ -768,6 +768,14 @@ HTML {
     margin-right: 123.59px;
   }
 }
+.order__details {
+  padding-top: 0;
+}
+@media screen and (min-width: 1400px) {
+  .order__details {
+    padding-top: 33px;
+  }
+}
 .order__title {
   font-weight: 700;
   font-size: 40px;
@@ -778,7 +786,8 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order__title {
-    margin-top: 33px;
+    margin-top: 0;
+    margin-bottom: 0px;
   }
 }
 .order__text {
@@ -813,14 +822,14 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order__email {
-    margin-top: 26px;
     width: 385px;
+    margin-top: 0;
     margin-right: 10px;
     flex-shrink: 0;
   }
 }
 .order__button {
-  margin: 12px 15px 0px 15px;
+  margin: 0px 15px 0px 15px;
   border-radius: 2px;
   font-weight: 700;
   font-size: 18px;
@@ -832,11 +841,22 @@ HTML {
 @media screen and (min-width: 1400px) {
   .order__button {
     margin: 0;
+    width: 160px;
   }
 }
 @media screen and (max-width: 1399px) {
   .order__button {
     flex-shrink: 0;
+  }
+}
+.order-buttons {
+  margin-top: 0;
+}
+@media screen and (min-width: 1400px) {
+  .order-buttons {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
   }
 }
 .order__terms {
