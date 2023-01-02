@@ -1,9 +1,9 @@
 .order {
   background-color: #f4f5f7;
   @include for-large-up {
+    padding-left: 224px;
     padding-top: 73px;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
   }
   &__illustration {
@@ -17,12 +17,12 @@
       margin-right: 123.59px;
     }
   }
-&__details {
-  padding-top: 0;
-  @include for-large-up {
-    padding-top: 33px;
+  &__details {
+    padding-top: 0;
+    @include for-large-up {
+      padding-top: 33px;
+    }
   }
-}
   &__title {
     font-weight: 700;
     font-size: 40px;
@@ -31,6 +31,8 @@
     letter-spacing: 1px;
     color: #2b292d;
     @include for-large-up {
+      padding-left: 15px;
+      text-align: start;
       margin-top: 0;
       margin-bottom: 0px;
     }

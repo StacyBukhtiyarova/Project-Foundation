@@ -749,9 +749,9 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order {
+    padding-left: 224px;
     padding-top: 73px;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
   }
 }
@@ -786,6 +786,8 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order__title {
+    padding-left: 15px;
+    text-align: start;
     margin-top: 0;
     margin-bottom: 0px;
   }
