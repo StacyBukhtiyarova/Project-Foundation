@@ -604,7 +604,7 @@ HTML {
   }
 }
 .headline-content {
-  margin: 41px 15px 24px 9px;
+  margin: 40px 15px 24px 15px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
