@@ -785,7 +785,6 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order__title {
-    padding-left: 15px;
     text-align: start;
     margin-top: 0;
     margin-bottom: 0px;
@@ -797,8 +796,6 @@ HTML {
   line-height: 32px;
   width: 290px;
   color: #2b292d;
-  letter-spacing: 1px;
-  padding-left: 15px;
   margin-bottom: 0px;
 }
 @media screen and (min-width: 1400px) {
@@ -824,9 +821,9 @@ HTML {
 @media screen and (min-width: 1400px) {
   .order__email {
     width: 385px;
-    margin-top: 0;
-    margin-right: 10px;
     flex-shrink: 0;
+    margin: 0;
+    margin-right: 10px;
   }
 }
 .order__button {
