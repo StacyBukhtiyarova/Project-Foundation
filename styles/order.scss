@@ -2,7 +2,7 @@
   background-color: #f4f5f7;
   @include for-large-up {
     padding-left: 224px;
-    padding-top: 70px;
+    padding-top: 73px;
     display: flex;
     align-items: flex-start;
   }
@@ -17,23 +17,20 @@
       margin-right: 123.59px;
     }
   }
-  &__details {
-    padding-top: 0;
-    @include for-large-up {
-      padding-top: 33px;
-    }
-  }
+
   &__title {
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 1px;
+    letter-spacing: -0.25px;
     color: #2b292d;
     @include for-large-up {
       text-align: start;
-      margin-top: 0;
+      margin-top: 0px;
       margin-bottom: 0px;
+      letter-spacing: -0.25px;
     }
   }
   &__text {
@@ -94,7 +91,7 @@
     }
   }
   &__terms {
-    padding: 10px 15px 50px 15px;
+    padding: 0px 15px 50px 15px;
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
