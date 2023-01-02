@@ -105,7 +105,7 @@
   }
 }
 .img-block {
-  padding-bottom: 110px;
+  padding-bottom: 50px;
   margin: 40px auto 0 auto;
   width: 290px;
   text-align: center;
@@ -116,6 +116,7 @@
     width: 1139px;
     margin: 0;
     padding-top: 111px;
+    padding-bottom: 110px;
   }
 
   &__item {
@@ -150,7 +151,7 @@
   }
   &__text {
     margin: 0;
-    margin-top: 21px;
+    margin-top: 19px;
     margin-bottom: 33px;
     font-weight: 700;
     font-size: 22px;
