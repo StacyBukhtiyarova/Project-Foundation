@@ -1,6 +1,8 @@
 .order {
+  display: none;
   background-color: #f4f5f7;
   @include for-large-up {
+    display: block;
     padding-top: 73px;
     display: flex;
     justify-content: center;
