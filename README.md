@@ -1,5 +1,5 @@
 # Project Foundation #
-[Ссылка на гитхаб](https://github.com/StacyBukhtiyarova/Project-Foundation).
+[Ссылка на гитхаб](https://github.com/StacyBukhtiyarova/Project-Foundation).  
 Верстка поддерживает расширение для экранов до 399 пикселей и для больших экранов от 1400 пикселей.
 Технический стек:
 1. HTML5;
