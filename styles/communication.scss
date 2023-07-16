@@ -1,7 +1,7 @@
 .communication {
   padding: 50px 15px 50px 15px;
   @include for-large-up {
-    padding: 110px 130px 110px 126px;
+       padding: 110px 130px 110px 126px;
   }
   &__title {
     margin: 0;
@@ -27,8 +27,9 @@
     letter-spacing: -0.357143px;
     color: #2b292d;
     @include for-large-up {
-      margin-top: 24px;
       width: 462px;
+      margin-top: 24px;
+
       font-size: 56px;
       line-height: 56px;
       letter-spacing: -0.5px;
@@ -42,25 +43,25 @@
     color: #2b292d;
     letter-spacing: 1.5px;
     @include for-large-up {
-      margin-top: 30px;
       width: 461px;
+      margin-top: 30px;
     }
   }
   &__button {
     margin-top: 30px;
     @include for-large-up {
-      margin-top: 39px;
       width: 160px;
+      margin-top: 39px;
     }
   }
   &__figure {
     margin: 0;
     @include for-large-up {
+      display: flex;
+      flex-direction: column;
       margin: 0;
       min-width: 425px;
       margin-left: auto;
-      display: flex;
-      flex-direction: column;
     }
   }
   &__figure-pic {
