@@ -40,7 +40,7 @@
     font-size: 24px;
     line-height: 34px;
     width: 290px;
-    text-align: center;
+   
     color: #2b292d;
     @include for-large-up {
       margin-top: 30px;
@@ -48,14 +48,10 @@
     }
   }
   &-buttons {
-    display: flex;
-    flex-direction: column;
     min-width: 290px;
-    text-align: center;
+
     @include for-large-up {
       margin-top: 34px;
-      display: flex;
-      flex-direction: row;
       width: 328px;
     }
   }
@@ -79,7 +75,6 @@
     padding-top: 22px;
     width: 138px;
   }
-  
 }
 
 .learn-more-btn {
@@ -102,10 +97,8 @@
   margin: 40px auto 0 auto;
   width: 290px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+
   @include for-large-up {
-    flex-direction: row;
     width: 1139px;
     margin: 0;
     padding-top: 111px;
@@ -149,6 +142,5 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    text-align: center;
   }
 }

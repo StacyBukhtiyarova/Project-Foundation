@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Error: Undefined mixin.
+ *    ,
+ * 9  | /     @include for-large-up {
+ * 10 | |       width: 1140px;
+ * 11 | |       margin: 0 auto;
+ * 12 | |       display: flex;
+ * 13 | |       height: 338px;
+ * 14 | |  
+ * 15 | \     }
+ *    '
+ *   footer.scss 9:5  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    ╷\a 9  │ ┌     @include for-large-up {\a 10 │ │       width: 1140px;\a 11 │ │       margin: 0 auto;\a 12 │ │       display: flex;\a 13 │ │       height: 338px;\a 14 │ │  \a 15 │ └     }\a    ╵\a   footer.scss 9:5  root stylesheet";
+}
+
+/*# sourceMappingURL=styles.css.map */
