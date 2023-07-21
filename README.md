@@ -1,12 +1,12 @@
 # Project Foundation #
-[Ссылка на сайт](https://stacybukhtiyarova.github.io/Project-Foundation/).  
-Верстка поддерживает расширение для экранов до 399 пикселей и для больших экранов от 1400 пикселей.
-Технический стек:
+[Site link](https://stacybukhtiyarova.github.io/Project-Foundation/).  
+layout looks good for screen extension to 399px and for large screens from 1400px.
+Tech stack:
 1. HTML5;
 2. CSS3;
 3. Flexbox;
-4. Препроцессор Scss;
-5. Методология БЕМ.
+4. Preprocessor Scss;
+5. BEM methodology.
 
-Автор:
-Анастасия Бухтиярова
+Author:
+Anastasiya Bukhtiyarova
