@@ -1,43 +1,43 @@
 .about {
-   width: 100%;
+  width: 100%;
   background-color: #f4f5f7;
- 
   padding: 44px 15px;
   @include for-large-up {
     display: flex;
-    margin: auto;
     justify-content: space-between;
-    padding-left: 130px;
+    margin: auto;
+    /*   padding-left: 130px;
     padding-right: 131px;
+    */
+    padding: 0 130px;
   }
 }
 .article {
   @include for-large-up {
     width: 555px;
-    padding-top: 77px;
-    padding-bottom: 76px;
-    margin-right: 29px;
+    margin: 0 29px 0 0;
+    padding: 77px 0 76px 0;
   }
   &:last-child {
     margin-top: 20px;
     @include for-large-up {
-      margin-top: 0;
+      margin: 0 0 0 0;
     }
   }
   &__title {
+    margin: 0;
+    padding: 10px 0 0 0;
+    line-height: 32px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
-    margin: 0;
-   padding-top: 10px;
   }
   &__text {
-    padding-top: 8px;
-    font-size: 22px;
-    line-height: 32px;
     margin: 0;
+    padding: 8px 0 0 0;
+    line-height: 32px;
+    font-size: 22px;
     @include for-large-up {
-      margin-top: 6px;
+      margin: 6px 0 0 0;
     }
   }
 }

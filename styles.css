@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-HTML {
+html {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
@@ -40,8 +40,8 @@ HTML {
 
 /*# sourceMappingURL=index.css.map */
 .about {
-  background-color: #f4f5f7;
   width: 100%;
+  background-color: #f4f5f7;
   padding: 44px 15px;
 }
 @media screen and (min-width: 1400px) {
@@ -90,10 +90,10 @@ HTML {
 }
 
 .customers {
-  margin: auto;
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .customers {
@@ -148,7 +148,6 @@ HTML {
   }
 }
 .features__content {
-  display: flex;
   width: 1140px;
   margin-top: 81px;
   margin: auto;
@@ -161,12 +160,12 @@ HTML {
   margin: 0;
 }
 .features__title {
+  width: 462px;
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.5px;
   color: #2b292d;
-  width: 462px;
   margin-top: 24px;
   margin-bottom: 0;
 }
@@ -228,23 +227,19 @@ HTML {
 }
 
 .footer {
-  margin-top: auto;
-  margin-bottom: 0;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 .footer-nav {
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
   .footer-nav {
+    height: 338px;
     width: 1140px;
     margin: 0 auto;
-    display: flex;
-    height: 338px;
-    flex-direction: row;
   }
 }
 .footer__description {
@@ -278,9 +273,9 @@ HTML {
   }
 }
 .footer-line {
+  width: 100%;
   border-top: 1px solid #2b292d;
   opacity: 0.1;
-  width: 100%;
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
@@ -447,7 +442,6 @@ HTML {
     height: 62px;
     margin: auto;
     margin-bottom: 76px;
-    display: flex;
     background-color: #f3c6bd;
   }
 }
@@ -614,24 +608,24 @@ HTML {
   }
 }
 .headline-banner {
-  margin-top: 10px;
   width: 100%;
+  margin-top: 10px;
   margin-bottom: 36px;
 }
 .headline__description {
-  margin-bottom: 30px;
   width: 290px;
+  margin-top: 24px;
+  margin-bottom: 30px;
   font-size: 24px;
   line-height: 34px;
   z-index: 1;
-  margin-top: 24px;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
+    width: 456px;
     margin: 0;
     margin-top: 34px;
     margin-bottom: 58px;
-    width: 456px;
   }
 }
 .headline__learn-more-btn {
@@ -668,19 +662,19 @@ HTML {
     display: flex;
   }
   .headline-banner {
+    height: 448px;
     margin-top: 0px;
     position: relative;
     margin-left: auto;
     right: -105px;
     width: 796px;
-    height: 448px;
     margin-bottom: 77px;
   }
 }
 .headline__action-btn {
-  padding-left: 12px;
   height: 48px;
   width: 100%;
+  padding-left: 12px;
   letter-spacing: 0.6px;
 }
 @media screen and (min-width: 1400px) {
@@ -726,11 +720,11 @@ HTML {
   color: #009b4d;
 }
 .tip__decoration {
-  margin: 0;
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .tip__image {
   margin-top: 30px;
@@ -748,10 +742,10 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding-left: 224px;
-    padding-top: 73px;
     display: flex;
     align-items: flex-start;
+    padding-left: 224px;
+    padding-top: 73px;
   }
 }
 .order__illustration {
@@ -785,29 +779,29 @@ HTML {
   }
 }
 .order__text {
+  width: 290px;
   margin-top: 18px;
   font-size: 22px;
   line-height: 32px;
-  width: 290px;
   color: #2b292d;
   margin-bottom: 0px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
-    margin-top: 12px;
     width: 555px;
+    margin-top: 12px;
   }
 }
 .order__email {
+  height: 48px;
+  width: 290px;
+  margin: 40px 15px 0px 15px;
   font-size: 18px;
   line-height: 13px;
   text-align: center;
   background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  height: 48px;
-  width: 290px;
-  margin: 40px 15px 0px 15px;
 }
 .order__email::placeholder {
   color: rgb(43, 41, 45);
@@ -821,6 +815,7 @@ HTML {
   }
 }
 .order__button {
+  width: 290px;
   margin: 0px 15px 0px 15px;
   border-radius: 2px;
   font-weight: 700;
@@ -828,12 +823,11 @@ HTML {
   line-height: 13px;
   text-align: center;
   color: #ffffff;
-  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin: 0;
     width: 160px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1399px) {
@@ -846,9 +840,9 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .order-buttons {
-    margin-top: 26px;
     display: flex;
     flex-direction: row;
+    margin-top: 26px;
   }
 }
 .order__terms {
@@ -1054,8 +1048,8 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .communication__subtitle {
-    margin-top: 24px;
     width: 462px;
+    margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -1071,8 +1065,8 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .communication__description {
-    margin-top: 30px;
     width: 461px;
+    margin-top: 30px;
   }
 }
 .communication__button {
@@ -1080,8 +1074,8 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .communication__button {
-    margin-top: 39px;
     width: 160px;
+    margin-top: 39px;
   }
 }
 .communication__figure {
@@ -1089,11 +1083,11 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .communication__figure {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     min-width: 425px;
     margin-left: auto;
-    display: flex;
-    flex-direction: column;
   }
 }
 .communication__figure-pic {
@@ -1180,10 +1174,10 @@ HTML {
 }
 
 .audience {
-  background-color: rgba(0, 161, 198, 0.07);
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(0, 161, 198, 0.07);
 }
 .audience__title {
   padding: 49px 0 17px 0;
@@ -1212,46 +1206,40 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .audience__subtitle {
+    width: 555px;
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
-    width: 555px;
   }
 }
 .audience__description {
+  width: 290px;
   margin: 0;
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
-  width: 290px;
-  text-align: center;
   color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .audience__description {
-    margin-top: 30px;
     width: 555px;
+    margin-top: 30px;
   }
 }
 .audience-buttons {
-  display: flex;
-  flex-direction: column;
   min-width: 290px;
-  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audience-buttons {
-    margin-top: 34px;
-    display: flex;
-    flex-direction: row;
     width: 328px;
+    margin-top: 34px;
   }
 }
 .audience__action-button {
-  margin-top: 30px;
   min-width: 290px;
   height: 48px;
+  margin-top: 30px;
   background-color: #3040c4;
   border-radius: 2px;
   color: #fff;
@@ -1261,26 +1249,14 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .audience__action-button {
-    margin-top: 0;
     min-width: 160px;
     flex-shrink: 1;
+    margin-top: 0;
   }
 }
-.audience__img-one {
-  padding-top: 22px;
+.audience__img {
   width: 138px;
-}
-.audience__img-two {
   padding-top: 22px;
-  width: 142px;
-}
-.audience__img-three {
-  padding-top: 22px;
-  width: 160px;
-}
-.audience__img-four {
-  padding-top: 22px;
-  width: 119px;
 }
 
 .learn-more-btn {
@@ -1295,23 +1271,20 @@ HTML {
 }
 @media screen and (min-width: 1400px) {
   .learn-more-btn {
-    margin-top: 0;
     width: 158px;
+    margin-top: 0;
     margin-left: 10px;
   }
 }
 
 .img-block {
-  padding-bottom: 50px;
-  margin: 40px auto 0 auto;
   width: 290px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 50px;
+  margin: 40px auto 0 auto;
 }
 @media screen and (min-width: 1400px) {
   .img-block {
-    flex-direction: row;
     width: 1139px;
     margin: 0;
     padding-top: 111px;
@@ -1319,11 +1292,11 @@ HTML {
   }
 }
 .img-block__item {
+  width: 290px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   margin-bottom: 15px;
-  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .img-block__item {
@@ -1354,7 +1327,6 @@ HTML {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

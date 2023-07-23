@@ -3,20 +3,19 @@
   flex-direction: column;
   flex: 1;
   margin: auto;
-  
+
   @include for-large-up {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 1140px;
     margin: auto;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 106px;
-    align-items: center;
-    flex-direction: row;
+    padding: 30px 0 106px 0;
   }
   &__logo {
-    filter: brightness(0);
     max-width: 80%;
+    filter: brightness(0);
   }
   &__row {
     display: flex;

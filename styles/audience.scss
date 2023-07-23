@@ -3,23 +3,21 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 161, 198, 0.07);
-
   &__title {
-    padding: 49px 0 17px 0;
     margin: 0;
+    padding: 49px 0 17px 0;
+    line-height: 34px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 34px;
     text-align: center;
     color: #2b292d;
     @include for-large-up {
-      padding-top: 108px;
-      padding-bottom: 0px;
+      padding: 108px 0 0 0;
     }
   }
   &__subtitle {
-    margin: 0;
     width: 290px;
+    margin: 0;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
@@ -28,7 +26,7 @@
     color: #2b292d;
     @include for-large-up {
       width: 555px;
-      margin-top: 24px;
+      margin: 24px 0 0 0;
       font-size: 56px;
       line-height: 56px;
       letter-spacing: -0.5px;
@@ -37,29 +35,26 @@
   &__description {
     width: 290px;
     margin: 0;
-    margin-top: 18px;
+    margin: 18px 0 0 0;
     font-size: 24px;
     line-height: 34px;
-
     color: #2b292d;
     @include for-large-up {
       width: 555px;
-      margin-top: 30px;
+      margin: 30px 0 0 0;
     }
   }
   &-buttons {
     min-width: 290px;
-
     @include for-large-up {
       width: 328px;
-      margin-top: 34px;
+      margin: 34px 0 0 0;
     }
   }
   &__action-button {
     min-width: 290px;
     height: 48px;
-    margin-top: 30px;
-
+    margin: 30px 0 0 0;
     background-color: #3040c4;
     border-radius: 2px;
     color: #fff;
@@ -67,65 +62,59 @@
     font-weight: 700;
     border: none;
     @include for-large-up {
-      min-width: 160px;
       flex-shrink: 1;
-      margin-top: 0;
+      min-width: 160px;
+      margin: 0;
     }
   }
   &__img {
     width: 138px;
-    padding-top: 22px;
+    padding: 22px 0 0 0;
   }
 }
-
 .learn-more-btn {
   height: 48px;
+  margin: 12px 0 0 0;
   background-color: #fff;
   border-radius: 2px;
   color: #000000;
   font-size: 18px;
   font-weight: 700;
   border: none;
-  margin-top: 12px;
   @include for-large-up {
     width: 158px;
-    margin-top: 0;
-
-    margin-left: 10px;
+    margin: 0 0 10 0;
   }
 }
 .img-block {
-  width: 290px;
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  padding-bottom: 50px;
+  width: 290px;
   margin: 40px auto 0 auto;
-
+  padding: 0 0 0 50px;
   @include for-large-up {
-    width: 1139px;
     margin: 0;
-    padding-top: 111px;
-    padding-bottom: 110px;
+    padding: 111px 0 110px 0;
   }
-
+  width: 1139px;
   &__item {
-     width: 290px;
+    width: 290px;
+    margin: 0 0 15px 0;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    margin-bottom: 15px;
-   
     @include for-large-up {
       height: 300px;
       margin: 0;
-      margin-right: 30px;
+      margin: 0 30px 0 0;
       &:last-child {
-        margin-right: 0;
+        margin: 0;
       }
     }
-
     &:last-child {
-      margin-bottom: 0;
+      margin: 0;
     }
     &:hover {
       cursor: pointer;
@@ -140,10 +129,9 @@
   }
   &__text {
     margin: 0;
-    margin-top: 19px;
-    margin-bottom: 33px;
+    margin: 19px 0 33px 0;
+    line-height: 28px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 28px;
   }
 }
