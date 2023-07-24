@@ -10,14 +10,13 @@
     width: 1140px;
     height: 62px;
     margin: auto;
-    margin: 0 130px 76px 0;
+    margin-bottom: 76px;
     background-color: #f3c6bd;
   }
   &__button {
     display: none;
     @include for-large-up {
       display: block;
-      margin-left: auto;
     }
   }
   &__menu-button {
@@ -61,7 +60,7 @@
   display: none;
   @include for-large-up {
     display: block;
-    margin-left: 8px 75px 0 auto;
+    margin: 8px 75px 0 auto;
   }
   &__arrow {
     display: inline-block;
