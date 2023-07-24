@@ -846,15 +846,15 @@ html {
 }
 
 .inbox {
-  background-color: #fcf0e3;
   padding: 50px 15px 48px 15px;
+  background-color: #fcf0e3;
 }
 @media screen and (min-width: 1400px) {
   .inbox {
-    margin-top: 103px;
     display: flex;
     padding: 0;
     padding: 0px 0px 101px 193px;
+    margin: 103px 0 0 0;
   }
 }
 .inbox__figure {
@@ -862,83 +862,80 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .inbox-content {
+    padding: 115px 0 0 0;
     max-width: 519px;
-    padding-top: 115px;
   }
 }
 .inbox__img {
-  margin-bottom: 32px;
   max-width: 290px;
+  margin: 0 0 32px 0;
 }
 @media screen and (min-width: 1400px) {
   .inbox__img {
     min-width: 425px;
     height: 510px;
-    margin-top: 142px;
+    margin: 142px 0 0 0;
   }
 }
 .inbox__title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #f1592b;
   margin: 0;
-  margin-bottom: 17px;
+  margin: 0 0 17px 0;
+  line-height: 34px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1592b;
 }
 @media screen and (min-width: 1400px) {
   .inbox__title {
     margin: 0;
-    margin-left: 192px;
-    margin-bottom: 24px;
+    margin: 0 0 24px 192px;
   }
 }
 .inbox__subtitle {
-  font-weight: 700;
-  font-size: 40px;
+  margin: 0;
+  margin: 0 0 18px 0;
   line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
   letter-spacing: -0.357143px;
   color: #2b292d;
-  margin: 0;
-  margin-bottom: 18px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__subtitle {
     margin: 0;
-    margin-left: 190px;
-    margin-bottom: 30px;
+    margin: 0 0 30px 190px;
   }
 }
 .inbox__description {
-  font-size: 24px;
   line-height: 34px;
+  font-size: 24px;
   color: #2b292d;
   letter-spacing: 1.5px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__description {
-    word-spacing: 7px;
     margin: 0;
-    margin-left: 192px;
+    margin: 0 0 44px 192px;
     width: 461px;
+    word-spacing: 7px;
     letter-spacing: 0px;
-    margin-bottom: 44px;
   }
 }
 .inbox-comment {
+  padding: 30px 20px 0px 20px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  padding: 30px 20px 0px 20px;
 }
 @media screen and (min-width: 1400px) {
   .inbox-comment {
-    margin-left: 164px;
     min-width: 519px;
+    margin: 0 0 0 164px;
   }
 }
 .inbox-comment__text {
   margin: 0;
-  font-size: 20px;
   line-height: 28px;
+  font-size: 20px;
   color: #2b292d;
   word-spacing: 3px;
 }
@@ -949,21 +946,20 @@ html {
   display: flex;
 }
 .inbox-comment__img-block {
-  padding-top: 28px;
-  margin-right: 11px;
-  padding-bottom: 52px;
+  margin: 0 11px 0 0;
+  padding: 28px 0 52x 0;
 }
 .inbox-comment__img {
   max-width: 40px;
   height: 40px;
 }
 .inbox-comment-content {
-  padding-top: 26px;
+  padding: 26px 0 0 0;
 }
 .inbox-comment__username {
   margin: 0;
-  font-weight: 700;
   line-height: 22px;
+  font-weight: 700;
   color: #2b292d;
 }
 .inbox-comment__user-info {
@@ -972,14 +968,14 @@ html {
   color: rgba(43, 41, 45, 0.6);
 }
 .inbox__border {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #0185d0;
   width: 100%;
   height: 4px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #0185d0;
 }
 @media screen and (min-width: 1400px) {
   .inbox__border {
     min-width: 519px;
-    margin-left: 164px;
+    margin: 0 0 0 164px;
   }
 }
 .inbox__figcaption {
@@ -988,9 +984,9 @@ html {
 @media screen and (min-width: 1400px) {
   .inbox__figcaption {
     display: block;
-    padding-left: 71px;
-    font-size: 14px;
+    padding: 0 0 0 71px;
     line-height: 22px;
+    font-size: 14px;
     color: rgba(43, 41, 45, 0.6);
   }
 }
