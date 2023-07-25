@@ -12,7 +12,8 @@
     text-align: center;
     color: #2b292d;
     @include for-large-up {
-      padding: 108px 0 0 0;
+      padding-top: 108px;
+      padding-bottom: 0px;
     }
   }
   &__subtitle {
@@ -97,11 +98,11 @@
   margin: 40px auto 0 auto;
   padding: 0 0 0 50px;
   @include for-large-up {
+    width: 1139px;
     flex-direction: row;
     margin: 0;
     padding: 111px 0 110px 0;
   }
-  width: 1139px;
   &__item {
     width: 290px;
     margin: 0 0 15px 0;
