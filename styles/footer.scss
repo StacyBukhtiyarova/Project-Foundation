@@ -5,6 +5,7 @@
   &-nav {
     margin: 0;
     @include for-large-up {
+      display: flex;
       flex-direction: row;
       height: 338px;
       width: 1140px;

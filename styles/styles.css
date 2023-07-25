@@ -232,6 +232,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .footer-nav {
+    display: flex;
     flex-direction: row;
     height: 338px;
     width: 1140px;
@@ -668,7 +669,7 @@ html {
 }
 
 .tips {
-  margin-top: 8px;
+  margin: 8px 0 0 0;
 }
 @media screen and (min-width: 1400px) {
   .tips {
@@ -682,24 +683,24 @@ html {
 }
 .tip__title {
   margin: 0;
-  margin-top: 17px;
-  font-weight: 700;
-  font-size: 40px;
+  margin: 17px 0 0 0;
   line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
   letter-spacing: -0.357143px;
   color: #2b292d;
 }
 .tip__description {
-  font-size: 24px;
-  line-height: 34px;
-  color: #2b292d;
   margin: 0;
-  margin-top: 15px;
+  margin: 15px 0 0 0;
+  line-height: 34px;
+  font-size: 24px;
+  color: #2b292d;
 }
 .tip__subtitle {
-  font-weight: 700;
-  font-size: 22px;
   line-height: 34px;
+  font-size: 22px;
+  font-weight: 700;
   color: #009b4d;
 }
 .tip__decoration {
@@ -707,17 +708,17 @@ html {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
 }
 .tip__image {
-  margin-top: 30px;
+  margin: 30px 0 0 0;
 }
 .tip__image-caption {
-  margin-top: 19px;
-  font-size: 14px;
-  line-height: 22px;
-  color: rgba(43, 41, 45, 0.6);
   max-width: 100%;
+  margin: 19px 0 0 0;
+  line-height: 22px;
+  font-size: 14px;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .order {
@@ -727,28 +728,27 @@ html {
   .order {
     display: flex;
     align-items: flex-start;
-    padding-left: 224px;
-    padding-top: 73px;
+    padding: 73px 0 0 224px;
   }
 }
 .order__illustration {
-  margin: 50px 60px 0 60px;
   max-width: 200px;
   height: 220px;
+  margin: 50px 60px 0 60px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
-    margin: 0;
     min-width: 269.41px;
     min-height: 296px;
-    margin-right: 123.59px;
+    margin: 0;
+    margin: 0 123.59px 0 0;
   }
 }
 .order__title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
   text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
   letter-spacing: 1px;
   letter-spacing: -0.25px;
   color: #2b292d;
@@ -756,32 +756,30 @@ html {
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
-    margin-top: 46px;
-    margin-bottom: 0px;
+    margin: 46px 0 0 0;
     letter-spacing: -0.25px;
   }
 }
 .order__text {
   width: 290px;
-  margin-top: 18px;
-  font-size: 22px;
+  margin-top: 18px 0 0 0;
   line-height: 32px;
+  font-size: 22px;
   color: #2b292d;
-  margin-bottom: 0px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
     width: 555px;
-    margin-top: 12px;
+    margin: 12px 0 0 0;
   }
 }
 .order__email {
+  text-align: center;
   height: 48px;
   width: 290px;
   margin: 40px 15px 0px 15px;
-  font-size: 18px;
   line-height: 13px;
-  text-align: center;
+  font-size: 18px;
   background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
@@ -791,20 +789,20 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .order__email {
-    width: 385px;
     flex-shrink: 0;
+    width: 385px;
     margin: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
 }
 .order__button {
+  text-align: center;
   width: 290px;
   margin: 0px 15px 0px 15px;
   border-radius: 2px;
-  font-weight: 700;
-  font-size: 18px;
   line-height: 13px;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
   color: #ffffff;
 }
 @media screen and (min-width: 1400px) {
@@ -819,26 +817,25 @@ html {
   }
 }
 .order-buttons {
-  margin-top: 0;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .order-buttons {
     display: flex;
     flex-direction: row;
-    margin-top: 26px;
+    margin: 26px 0 0 0;
   }
 }
 .order__terms {
   padding: 0px 15px 50px 15px;
-  font-size: 14px;
   line-height: 22px;
+  font-size: 14px;
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
   .order__terms {
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-bottom: 105px;
+    margin: 10px 0 0 0;
+    padding: 0 0 105px 0;
   }
 }
 .order__link {
