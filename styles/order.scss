@@ -1,6 +1,5 @@
 .order {
-  // display: flex;
-  display: none;
+  display: flex;
   flex-direction: column;
   background-color: #f4f5f7;
   @include for-large-up {
