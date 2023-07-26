@@ -681,7 +681,7 @@
 }
 
 .order {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #f4f5f7;
 }
@@ -2002,7 +2002,7 @@ html {
 }
 
 .order {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #f4f5f7;
 }
