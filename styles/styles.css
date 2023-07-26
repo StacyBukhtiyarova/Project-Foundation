@@ -719,6 +719,7 @@
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
+    width: 565px;
     margin: 46px 0 0 0;
     letter-spacing: -0.25px;
   }
@@ -736,6 +737,7 @@
   .order__text {
     width: 555px;
     margin: 12px 0 0 0;
+    padding: 0;
   }
 }
 .order__email {
@@ -791,6 +793,7 @@
     display: flex;
     flex-direction: row;
     margin: 26px 0 0 0;
+    padding: 0;
   }
 }
 .order__terms {
@@ -2035,6 +2038,7 @@ html {
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
+    width: 565px;
     margin: 46px 0 0 0;
     letter-spacing: -0.25px;
   }
@@ -2052,6 +2056,7 @@ html {
   .order__text {
     width: 555px;
     margin: 12px 0 0 0;
+    padding: 0;
   }
 }
 .order__email {
@@ -2107,6 +2112,7 @@ html {
     display: flex;
     flex-direction: row;
     margin: 26px 0 0 0;
+    padding: 0;
   }
 }
 .order__terms {
