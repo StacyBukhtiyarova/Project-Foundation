@@ -683,12 +683,11 @@
 .order {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
+    flex-direction: row;
     align-items: flex-start;
     padding: 73px 0 0 224px;
   }
@@ -707,27 +706,31 @@
   }
 }
 .order__title {
+  text-align: center;
   width: 369px;
+  margin: 37px 0 0 0;
+  color: #2b292d;
   line-height: 40px;
   font-size: 40px;
   font-weight: 700;
-  color: #2b292d;
+  letter-spacing: 1px;
   letter-spacing: -0.25px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
-    margin-top: 46px 0 0 0;
+    margin: 46px 0 0 0;
     letter-spacing: -0.25px;
   }
 }
 .order__text {
-  text-align: start;
-  width: 269px;
+  width: 369px;
   margin: 18px 0 0 0;
+  padding: 0 0 0 50px;
   line-height: 32px;
   font-size: 22px;
   color: #2b292d;
+  letter-spacing: 0.75px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
@@ -736,15 +739,15 @@
   }
 }
 .order__email {
-  font-size: 18px;
-  line-height: 13px;
   text-align: center;
-  background: #ffffff;
-  border: 1px solid rgba(43, 41, 45, 0.2);
-  border-radius: 2px;
   height: 48px;
   width: 290px;
-  margin: 40px 15px 0px 15px;
+  margin: 0;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  background: #ffffff;
+  line-height: 13px;
+  font-size: 18px;
 }
 .order__email::placeholder {
   color: rgb(43, 41, 45);
@@ -754,23 +757,23 @@
     width: 385px;
     flex-shrink: 0;
     margin: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
 }
 .order__button {
-  margin: 0px 15px 0px 15px;
-  border-radius: 2px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
   text-align: center;
-  color: #ffffff;
   width: 290px;
+  margin: 12px 0 0 0;
+  border-radius: 2px;
+  line-height: 13px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin: 0;
     width: 160px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1399px) {
@@ -779,26 +782,29 @@
   }
 }
 .order-buttons {
-  margin-top: 0;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 0 15px;
 }
 @media screen and (min-width: 1400px) {
   .order-buttons {
-    margin-top: 26px;
     display: flex;
     flex-direction: row;
+    margin: 26px 0 0 0;
   }
 }
 .order__terms {
+  text-align: center;
   padding: 0px 15px 50px 15px;
-  font-size: 14px;
-  line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.99px;
 }
 @media screen and (min-width: 1400px) {
   .order__terms {
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-bottom: 105px;
+    margin: 10px 0 0 0;
+    padding: 0 0 105px 0;
   }
 }
 .order__link {
@@ -1221,7 +1227,6 @@
   text-align: center;
   width: 290px;
   margin: 40px auto 0 auto;
-  padding: 0 0 0 50px;
 }
 @media screen and (min-width: 1400px) {
   .img-block {
@@ -1994,12 +1999,11 @@ html {
 .order {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
+    flex-direction: row;
     align-items: flex-start;
     padding: 73px 0 0 224px;
   }
@@ -2018,27 +2022,31 @@ html {
   }
 }
 .order__title {
+  text-align: center;
   width: 369px;
+  margin: 37px 0 0 0;
+  color: #2b292d;
   line-height: 40px;
   font-size: 40px;
   font-weight: 700;
-  color: #2b292d;
+  letter-spacing: 1px;
   letter-spacing: -0.25px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
-    margin-top: 46px 0 0 0;
+    margin: 46px 0 0 0;
     letter-spacing: -0.25px;
   }
 }
 .order__text {
-  text-align: start;
-  width: 269px;
+  width: 369px;
   margin: 18px 0 0 0;
+  padding: 0 0 0 50px;
   line-height: 32px;
   font-size: 22px;
   color: #2b292d;
+  letter-spacing: 0.75px;
 }
 @media screen and (min-width: 1400px) {
   .order__text {
@@ -2047,15 +2055,15 @@ html {
   }
 }
 .order__email {
-  font-size: 18px;
-  line-height: 13px;
   text-align: center;
-  background: #ffffff;
-  border: 1px solid rgba(43, 41, 45, 0.2);
-  border-radius: 2px;
   height: 48px;
   width: 290px;
-  margin: 40px 15px 0px 15px;
+  margin: 0;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  background: #ffffff;
+  line-height: 13px;
+  font-size: 18px;
 }
 .order__email::placeholder {
   color: rgb(43, 41, 45);
@@ -2065,23 +2073,23 @@ html {
     width: 385px;
     flex-shrink: 0;
     margin: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
 }
 .order__button {
-  margin: 0px 15px 0px 15px;
-  border-radius: 2px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
   text-align: center;
-  color: #ffffff;
   width: 290px;
+  margin: 12px 0 0 0;
+  border-radius: 2px;
+  line-height: 13px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin: 0;
     width: 160px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1399px) {
@@ -2090,26 +2098,29 @@ html {
   }
 }
 .order-buttons {
-  margin-top: 0;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding: 0 15px;
 }
 @media screen and (min-width: 1400px) {
   .order-buttons {
-    margin-top: 26px;
     display: flex;
     flex-direction: row;
+    margin: 26px 0 0 0;
   }
 }
 .order__terms {
+  text-align: center;
   padding: 0px 15px 50px 15px;
-  font-size: 14px;
-  line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.99px;
 }
 @media screen and (min-width: 1400px) {
   .order__terms {
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-bottom: 105px;
+    margin: 10px 0 0 0;
+    padding: 0 0 105px 0;
   }
 }
 .order__link {
@@ -2532,7 +2543,6 @@ html {
   text-align: center;
   width: 290px;
   margin: 40px auto 0 auto;
-  padding: 0 0 0 50px;
 }
 @media screen and (min-width: 1400px) {
   .img-block {
