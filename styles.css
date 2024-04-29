@@ -554,7 +554,7 @@
     margin: 0;
   }
 }
-.headline-banner {
+.headline_banner {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 36px;
@@ -606,7 +606,7 @@
     display: flex;
     margin: 58px 0 0 0;
   }
-  .headline-banner {
+  .headline_banner {
     position: relative;
     height: 448px;
     width: 796px;
@@ -1875,7 +1875,7 @@ html {
     margin: 0;
   }
 }
-.headline-banner {
+.headline_banner {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 36px;
@@ -1927,7 +1927,7 @@ html {
     display: flex;
     margin: 58px 0 0 0;
   }
-  .headline-banner {
+  .headline_banner {
     position: relative;
     height: 448px;
     width: 796px;
