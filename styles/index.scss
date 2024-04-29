@@ -32,7 +32,6 @@ html {
     flex-direction: column;
   }
 }
-
 .hide_desktop {
   @include for-large-up {
     display: none;
