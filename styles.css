@@ -543,18 +543,18 @@
     color: #2b292d;
   }
 }
-.headline-content {
+.headline__content {
   margin: 40px 15px 24px 15px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
-  .headline-content {
+  .headline__content {
     position: absolute;
     z-index: 1;
     margin: 0;
   }
 }
-.headline_banner {
+.headline__banner {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 36px;
@@ -606,7 +606,7 @@
     display: flex;
     margin: 58px 0 0 0;
   }
-  .headline_banner {
+  .headline__banner {
     position: relative;
     height: 448px;
     width: 796px;
@@ -830,7 +830,7 @@
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .inbox-content {
+  .inbox__content {
     padding: 115px 0 0 0;
     max-width: 519px;
   }

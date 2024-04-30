@@ -1,3 +1,4 @@
+@import './breakpoints.scss';
 .inbox {
   padding: 50px 15px 48px 15px;
   background-color: #fcf0e3;
@@ -10,7 +11,7 @@
   &__figure {
     margin: 0;
   }
-  &-content {
+  &__content {
     @include for-large-up {
       padding: 115px 0 0 0;
       max-width: 519px;

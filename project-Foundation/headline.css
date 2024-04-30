@@ -1,0 +1,117 @@
+.top-section {
+  background-color: rgb(243, 198, 189);
+}
+
+.headline {
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .headline {
+    display: flex;
+    position: relative;
+    width: 1140px;
+    margin: auto;
+  }
+}
+.headline__title {
+  margin: 0;
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.3125px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__title {
+    z-index: 1;
+    width: 754px;
+    height: 165px;
+    line-height: 78px;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+  }
+}
+.headline__content {
+  margin: 40px 15px 24px 15px;
+  z-index: 1;
+}
+@media screen and (min-width: 1400px) {
+  .headline__content {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+  }
+}
+.headline__banner {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+.headline__description {
+  z-index: 1;
+  width: 290px;
+  margin: 24px 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__description {
+    width: 456px;
+    margin: 0;
+    margin: 34px 0 58px 0;
+  }
+}
+.headline__learn-more-btn {
+  width: 158px;
+  height: 48px;
+  margin: 19px 0 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #3040c4;
+  border: none;
+}
+@media screen and (min-width: 1400px) {
+  .headline__learn-more-btn {
+    width: 158px;
+    height: 48px;
+    margin: 0 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #3040c4;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .headline__content .headline {
+    margin: 84px 0 0 0;
+  }
+  .headline__actions {
+    display: flex;
+    margin: 58px 0 0 0;
+  }
+  .headline-banner {
+    position: relative;
+    height: 448px;
+    width: 796px;
+    margin: 0px 0 77px auto;
+    right: -105px;
+  }
+}
+.headline__action-btn {
+  height: 48px;
+  width: 100%;
+  padding: 0 0 0 12px;
+  letter-spacing: 0.6px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__action-btn {
+    margin: 0 10px 0 0;
+    width: 160px;
+  }
+}/*# sourceMappingURL=headline.css.map */
