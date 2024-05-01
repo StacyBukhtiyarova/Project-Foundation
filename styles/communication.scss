@@ -113,12 +113,13 @@
     color: #2b292d;
   }
   &__description {
+    width:360px;
     margin: 0;
     padding: 0 0 10px 0;
     line-height: 26px;
     font-size: 18px;
     color: #2b292d;
-    letter-spacing: 1px;
+    letter-spacing: -0.5px;
   }
   &__link {
     font-weight: 700;
